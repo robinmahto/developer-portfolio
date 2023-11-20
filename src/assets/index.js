@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import githubs from "./social/github.svg";
+import linkedin from "./social/linkedin.svg";
+import instagram from "./social/instagram.svg";
+import hashnode from "./social/hashnode.svg";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  githubs,
+  instagram,
+  linkedin,
+  hashnode
 };

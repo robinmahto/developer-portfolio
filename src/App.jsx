@@ -26,8 +26,8 @@ const App = () => {
           style={{ scaleX: scrollYProgress }}
         />
         <About />
-        <Experience />
         <Skills />
+        <Experience />
         <Projects />
         <div className="relative z-0">
           <Contact />

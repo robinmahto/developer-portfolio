@@ -48,22 +48,46 @@ export const navLinks = [
   },
 ];
 
-export const services = [
+export const skills = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "HTML5",
+    icon: html,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "CSS3",
+    icon: css,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "JavaScript",
+    icon: javascript,
   },
   {
-    title: "Full Stack Developer",
-    icon: creator,
+    title: "TypeScript",
+    icon: typescript,
+  },
+  {
+    title: "React.js",
+    icon: reactjs,
+  },
+  {
+    title: "Redux.js",
+    icon: redux,
+  },
+  {
+    title: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    title: "Git",
+    icon: git,
+  },
+  {
+    title: "Node.js",
+    icon: nodejs,
+  },
+  {
+    title: "MongoDB",
+    icon: mongodb,
   },
 ];
 

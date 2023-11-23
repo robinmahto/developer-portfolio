@@ -33,7 +33,7 @@ const SkillsCard = ({ index, title, icon }) => (
 
 const Skills = () => {
   return (
-    <>
+    <div id="skills">
      <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have Learn so far
@@ -48,7 +48,7 @@ const Skills = () => {
           <SkillsCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 

@@ -14,7 +14,7 @@ import {
 const Contact = () => {
   return (
     <>
-      <div className="flex items-center justify-center gap-5 mb-3">
+      <div className="flex items-center justify-center gap-5 mb-3" id="contact">
         <div className="bg-[#915EFF] w-1/3 h-1 hidden xs:block"></div>
         <motion.div variants={textVariant()}>
           <h2 className={`${styles.sectionHeadText} text-center`}>

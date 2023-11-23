@@ -17,6 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
+    <div id="projects">
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
@@ -64,6 +65,7 @@ const ProjectCard = ({
         </div>
       </Tilt>
     </motion.div>
+    </div>
   );
 };
 

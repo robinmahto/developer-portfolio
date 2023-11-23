@@ -35,6 +35,10 @@ import linkedin from "./social/linkedin.svg";
 import instagram from "./social/instagram.svg";
 import hashnode from "./social/hashnode.svg";
 
+import email from './contact/email.svg';
+import phone from './contact/phone.svg';
+import location from './contact/location.svg';
+
 export {
   logo,
   backend,
@@ -69,5 +73,9 @@ export {
   githubs,
   instagram,
   linkedin,
-  hashnode
+  hashnode,
+
+  email,
+  phone,
+  location
 };

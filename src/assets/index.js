@@ -39,6 +39,8 @@ import email from './contact/email.svg';
 import phone from './contact/phone.svg';
 import location from './contact/location.svg';
 
+import about_avatar from './about/about_avatar.svg';
+
 export {
   logo,
   backend,
@@ -77,5 +79,7 @@ export {
 
   email,
   phone,
-  location
+  location,
+
+  about_avatar
 };

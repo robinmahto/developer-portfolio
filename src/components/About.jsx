@@ -4,10 +4,14 @@ import { motion } from "framer-motion";
 import { styles } from "../global";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import { about_avatar } from "../assets";
+ 
 const About = () => {
   return (
-    <div className="flex flex-col  justify-center">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+         <img src={about_avatar} alt="about_avatar" className="w-96 h-96" />
+      </div>
       <div>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Introduction</p>

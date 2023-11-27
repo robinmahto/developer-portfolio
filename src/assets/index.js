@@ -39,6 +39,10 @@ import email from './contact/email.svg';
 import phone from './contact/phone.svg';
 import location from './contact/location.svg';
 
+import paytm from './projects/paytm.png';
+import rode from './projects/rode.png';
+import shopify from './projects/shopify.png';
+
 import about_avatar from './about/about_avatar.svg';
 
 export {
@@ -81,5 +85,9 @@ export {
   phone,
   location,
 
-  about_avatar
+  about_avatar,
+
+  paytm,
+  rode,
+  shopify
 };

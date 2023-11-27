@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  paytm,
+  rode,
+  shopify,
 } from "../assets";
 
 export const navLinks = [
@@ -148,51 +151,53 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Car Rent",
+    name: "Paytm Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Creating a Paytm clone using HTML, CSS, and Tailwind CSS involves building a responsive user interface that mimics Paytm's design.Implement key features like transaction cards and a payment form for a visually appealing.",
     tags: [
       {
-        name: "react",
+        name: "html5",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css3",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: paytm,
+    source_code_link: "https://github.com/robinmahto/Paytm-Clone",
+    live_link: "https://paytm-clone-tailwindcss-16.netlify.app/"
   },
   {
-    name: "Job IT",
+    name: "Rode Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Creating a Rode microphone clone with HTML, CSS, and Tailwind CSS for a polished user interface that mirrors Rode's design. Leverage Tailwind CSS for streamlined styling and HTML for structuring the responsive website.",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS3",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: rode,
+    source_code_link: "https://github.com/robinmahto/Rode-Clone",
+    live_link: "https://rode-clone-tailwindcss-17.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Shopify Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Crafting a Shopify clone with HTML, CSS, and Tailwind CSS for a responsive and visually appealing online store interface. Utilize Tailwind CSS utility classes for rapid styling, and HTML for organizing product listings and cart functionalities.",
     tags: [
       {
         name: "nextjs",
@@ -207,7 +212,8 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shopify,
+    source_code_link: "https://github.com/robinmahto/Shopify-Clone",
+    live_link: "https://shopify-clone-tailwindcss-18.netlify.app/"
   },
 ];

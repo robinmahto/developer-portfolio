@@ -156,15 +156,15 @@ export const projects = [
       "Creating a Paytm clone using HTML, CSS, and Tailwind CSS involves building a responsive user interface that mimics Paytm's design.Implement key features like transaction cards and a payment form for a visually appealing.",
     tags: [
       {
-        name: "html5",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "css3",
+        name: "CSS3",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind CSS",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -200,15 +200,15 @@ export const projects = [
       "Crafting a Shopify clone with HTML, CSS, and Tailwind CSS for a responsive and visually appealing online store interface. Utilize Tailwind CSS utility classes for rapid styling, and HTML for organizing product listings and cart functionalities.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS3",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],

@@ -16,7 +16,7 @@ const Hero = () => {
           <h1
             className={`font-black text-white lg:text-[60px] xs:text-[50px] text-[20px] lg:leading-[80px]`}
           >
-            Web Developer
+            Software Engineer - MERN
           </h1>
 
           <p className="md:w-1/2 mt-2 text-center text-xs md:text-sm lg:text-md">

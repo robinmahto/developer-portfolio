@@ -14,6 +14,7 @@ import {
   paytm,
   rode,
   shopify,
+  concira
 } from "../assets";
 
 export const navLinks = [
@@ -84,11 +85,24 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Frontend Web Developer",
-    company_name: "A satija co-operation pvt. ltd.",
+    title: "Software Development Engineer - 1",
+    company_name: "Concira",
+    icon: concira,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "Building reusable code that is scalable and optimized for performance.",
+      "Testing, debugging, and optimizing web applications with various tools and techniques (e.g., Chrome DevTools).",
+      "Utilizing industry best practices for mobile-first and responsive web application.",
+      "Creating appropriate integration strategies with components and APIs.",
+    ],
+  },
+  {
+    title: "Software Development Engineer",
+    company_name: "neoScript",
     icon: neoscript,
     iconBg: "#383E56",
-    date: "June 2022 - Present",
+    date: "June 2022 - April 2024",
     points: [
       "Building reusable code that is scalable and optimized for performance.",
       "Testing, debugging, and optimizing web applications with various tools and techniques (e.g., Chrome DevTools).",

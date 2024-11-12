@@ -25,6 +25,7 @@ import mobilestyx from "./company/mobilestyx.png";
 import neoscript from "./company/neoscript.jpeg";
 import sapat from "./company/sapat.jpeg";
 import self_employed from "./company/self-employed.jpeg";
+import concira from "./company/concira.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -72,6 +73,7 @@ export {
   neoscript,
   sapat,
   self_employed,
+  concira,
 
   carrent,
   jobit,
